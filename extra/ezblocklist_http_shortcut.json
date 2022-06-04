@@ -1,0 +1,43 @@
+{
+	"categories": [
+		{
+			"id": "27b566b0-b4ca-4d46-997d-71514714aa0f",
+			"name": "Shortcuts",
+			"shortcuts": [
+				{
+					"description": "Add URL to block list",
+					"iconName": "flat_color_pin",
+					"id": "1208a5df-6dcf-4cf0-8734-4cd6c9ccc447",
+					"launcherShortcut": true,
+					"name": "EZBlocklist",
+					"quickSettingsTileShortcut": true,
+					"responseHandling": {
+						"uiType": "toast"
+					},
+					"url": "{{bbbd35e6-ea8b-47f9-b440-ee0bae1b3eed}}/block?key\u003d{{86546cc4-ac3d-4b5e-984d-45040140210b}}\u0026url\u003d{{954d6d0f-d7f6-41e5-a02c-6f9c7f9d77d8}}"
+				}
+			]
+		}
+	],
+	"variables": [
+		{
+			"id": "bbbd35e6-ea8b-47f9-b440-ee0bae1b3eed",
+			"key": "ezblocklist_instance",
+			"value": "https://your.instance.url.without.trailing.slash"
+		},
+		{
+			"id": "86546cc4-ac3d-4b5e-984d-45040140210b",
+			"key": "ezblocklist_api_key",
+			"value": "your_key_that_you_used_when_setting_up_your_instance"
+		},
+		{
+			"flags": 1,
+			"id": "954d6d0f-d7f6-41e5-a02c-6f9c7f9d77d8",
+			"key": "ezblocklist_url",
+			"title": "Site URL",
+			"type": "text",
+			"urlEncode": true
+		}
+	],
+	"version": 51
+}
